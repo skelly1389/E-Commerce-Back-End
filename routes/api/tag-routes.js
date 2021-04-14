@@ -60,7 +60,7 @@ router.put('/:id', (req, res) => {
       },
     })
     .then((updateTag) =>{
-      res.json(updateTag);
+      res.json({message:"Tag Updated!"});
     })
     .catch((err) => res.json(err));
 });
