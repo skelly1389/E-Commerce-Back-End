@@ -22,7 +22,8 @@ A working server and database that accepts json inputs and returns relevant data
 
 Use insomnia to connect to api routes (and send json in body when appropriate) to view, create, update, and delete rows in all three database tables.
 
-[A video walkthrough is available here!]()
+[A video walkthrough is available here!](https://www.youtube.com/watch?v=xGA_R6SswfA)
+[With a bit I forgot here!](https://www.youtube.com/watch?v=rN7HZfVZVnQ)
 
     
 ![Successful put route](./screenshots/screenshot1.png)
