@@ -2,7 +2,7 @@
 
 ## Description
 
-
+A working server and database that accepts json inputs and returns relevant data as well as allows the user to update, create, or delete items in different tables within the database.
 
 ## Table of Contents
 
@@ -12,15 +12,20 @@
 
 ## Installation
 
-
+- Must set up a .env file containing variables to represent database name, password, and user.
+- Run npm install in the terminal.
+- In the cmd terminal log into mysql and run the commands in /db/schema.sql to create database tables.
+- In the terminal enter node ./seeds/index.js to put data in the tables.
+- Run npm start to get the server running and connected.
 
 ## Usage
 
+Use insomnia to connect to api routes (and send json in body when appropriate) to view, create, update, and delete rows in all three database tables.
 
+[A video walkthrough is available here!]()
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    
+![Successful put route](./screenshots/screenshot1.png)
 
 ## License
 
